@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div#titleContainer{
+    margin: 2em;
+    text-align: center;
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.product{
+    box-sizing: border-box;
+    border:solid black 3px;
+    background-color: rgb(167, 167, 167);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+}
+h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.textContainer{
+    clear: right;
+    box-sizing: border-box;
+    margin: 1.5em;
+    margin-top: 2.5em;
+}
+.name{
+    border: solid black 3px;
+    border-top: 0;
+    border-right: 0;
+    width: 30%;
+    float: right;
+    clear: left;
+    text-align: center;
+}
+#name1{
+    background-color:pink ;
+}
+#name2{
+    background-color: red;
+    color:white;
+}
+#name3{
+    background-color: rgb(248, 227, 109);
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    #product1{
+        position: absolute;
+        width: 43.5%;
+    }
+    #product2{
+        width: 43.5%;
+        float: right;
+    }
+    #product3{
+        clear: both;
+    }
+    .product{
+        margin-bottom: 1.5em;
+    }
+}
+@media only screen and (min-width:992px){
+    #product1{
+        position: absolute;
+        width: 30%;
+    }
+    #product2{
+        width: 30%;
+        float:right;
+        position: absolute;
+        right: 33%;
+    }
+    #product3{
+        width: 30%;
+        clear: both;
+        float: right;
+    }
+    .product{
+        margin:1.5em
+    }
+}
